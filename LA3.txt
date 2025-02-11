@@ -1,0 +1,4 @@
+in TCP it is not necessary data recv data sent 
+so we have to handle it
+
+using a while loop until whole data is received 

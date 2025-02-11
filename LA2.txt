@@ -1,0 +1,2 @@
+htonl(INADDR_ANY) --> server and client on same machine
+hton --> keeps order correct big endian      

@@ -1,0 +1,12 @@
+Part 1 
+
+1) Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::6b7f:1bcf:626b:40ec%7
+   IPv4 Address. . . . . . . . . . . : 10.145.249.216
+   Subnet Mask . . . . . . . . . . . : 255.255.128.0
+   Default Gateway . . . . . . . . . : 10.145.128.2
+
+
+2) Google: Address:  172.16.1.165
+    Facebook: Address:  172.16.1.165
+

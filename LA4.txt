@@ -1,0 +1,10 @@
+// select (nfds,readfds,writefds,exptfds,timeout) --> blocking call {basically solves the problem of blocking nature of recv}
+// nfds --> number of file decriptors 
+// use fdset to set file decriptors --> eg FD_SET()
+wt about bitmap 
+
+
+
+some common things 
+-- SM
+-- system calls using socket as k_socket
