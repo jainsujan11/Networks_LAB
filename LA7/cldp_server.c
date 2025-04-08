@@ -21,7 +21,7 @@
 #define CLIENT_PROTOCOL 254  // Client->Server
 #define MAX_PAYLOAD 1024
 #define SERVER_IP "127.0.0.1"
-#define CLIENT_IP "127.0.0.1"
+#define CLIENT_IP "255.255.255.255"
 
 // 8 byte header 
 struct cldp_header {
@@ -94,6 +94,8 @@ int main(int argc, char const *argv[])
 {
     int sock = socket(AF_INET, SOCK_RAW, CLIENT_PROTOCOL);
     // manually fill the IP header fields 
+    int broadcast = 1;
+    setsockopt(sock, SOL_SOCKET, SO_BROADCAST, &broadcast, sizeof(broadcast));
     int opt = 1;
     setsockopt(sock, IPPROTO_IP, IP_HDRINCL, &opt, sizeof(opt));
 

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "datafile": "cpp",
+        "assert.h": "c"
+    }
+}

@@ -158,8 +158,6 @@ int main()
 
 		   It blocks the server until a client request comes.
 
-
-
 		   The accept() system call fills up the client's details
 
 		   in a struct sockaddr which is passed as a parameter.

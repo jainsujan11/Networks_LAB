@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "types.h": "c"
+        "types.h": "c",
+        "*.tcc": "c",
+        "ksocket.h": "c",
+        "unistd.h": "c",
+        "string.h": "c"
     }
 }

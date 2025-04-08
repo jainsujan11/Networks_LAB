@@ -1,0 +1,3 @@
+in mailbox how to store for a particular recipient 
+
+> create a file with email id 
